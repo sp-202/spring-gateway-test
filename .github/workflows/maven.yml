@@ -22,7 +22,7 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
-      - name: Build with Maven
+      - name: Build with Maven gateway folder
         working-directory: ./gateway
         run: mvn clean install
 
@@ -46,3 +46,8 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+
+
+
+
