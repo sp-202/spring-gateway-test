@@ -44,7 +44,7 @@ jobs:
           context: .
           file: ./gateway/Dockerfile
           push: true
-          tags: gateway
+          tags: ${{ secrets.DOCKER_TAG_GATEWAY }}
           labels: ${{ steps.meta.outputs.labels }}
 
 

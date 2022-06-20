@@ -44,7 +44,7 @@ jobs:
           context: .
           file: ./resource_api/Dockerfile
           push: true
-          tags: resource_api
+          tags: ${{ secrets.DOCKER_TAG_RESOURCE_API }}
           labels: ${{ steps.meta.outputs.labels }}
 
 
