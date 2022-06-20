@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/.idea/Spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login_service/login_service.iml" filepath="$PROJECT_DIR$/login_service/login_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource_api/resource_api.iml" filepath="$PROJECT_DIR$/resource_api/resource_api.iml" />
+    </modules>
+  </component>
+</project>
