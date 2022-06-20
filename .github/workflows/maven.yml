@@ -23,7 +23,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: cd into gateway folder
-        run: cd ./gateway/
+        run: cd ./gateway/gateway
       - name: ls files in gateway
         run: ls
 #      - name: Build with Maven
