@@ -44,7 +44,7 @@ jobs:
           context: .
           file: ./login_service/Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: login_service
           labels: ${{ steps.meta.outputs.labels }}
 
 
