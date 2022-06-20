@@ -24,8 +24,9 @@ jobs:
           cache: maven
       - name: cd into gateway folder
         working-directory: ./gateway
-      - name: ls files in gateway
         run: ls
+#      - name: ls files in gateway
+#        run: ls
 #      - name: Build with Maven
 #        run: mvn clean install
 #
